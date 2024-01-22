@@ -1,0 +1,640 @@
+{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'prospects',
+  type: 'created',
+  received: '2024-01-22T21:19:40.651Z',
+  sent: '2024-01-22T21:19:40.651Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'unclaimed',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ]
+  },
+  updatedAt: '2024-01-22T21:19:40.432Z',
+  operationId: '65aedbecb8df640009896f80'
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"prospects","type":"created","received":"2024-01-22T21:19:40.651Z","sent":"2024-01-22T21:19:40.651Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"unclaimed","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}]},"updatedAt":"2024-01-22T21:19:40.432Z","operationId":"65aedbecb8df640009896f80"}
+{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'interactions',
+  type: 'created',
+  received: '2024-01-22T21:19:41.162Z',
+  sent: '2024-01-22T21:19:41.162Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    transferredAt: null,
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'unclaimed',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ],
+    webchatDueAt: '2024-01-23T21:19:40.944Z',
+    agent: {
+      id: '65aedaf5f91b1a84f269489a',
+      firstName: 'Webchat',
+      lastName: 'Bot �',
+      phone: '549111111111',
+      email: 'sirenabot+65aedaf5e86c48c15f273859@sirena.app',
+      appFields: {}
+    },
+    assigned: '2024-01-22T21:19:40.452Z',
+    firstContactedAt: '2024-01-22T21:19:40.944Z'
+  },
+  updatedAt: '2024-01-22T21:19:40.944Z',
+  operationId: '65aedbec119d820008a16519',
+  interaction: {
+    id: '65aedbec119d820008a16519',
+    createdAt: '2024-01-22T21:19:40.944Z',
+    status: 'created',
+    prospectId: '65aedbecb8df640009896f81',
+    agentId: '65aedaf5f91b1a84f269489a',
+    agent: {
+      id: '65aedaf5f91b1a84f269489a',
+      firstName: 'Webchat',
+      lastName: 'Bot �',
+      phone: '549111111111',
+      email: 'sirenabot+65aedaf5e86c48c15f273859@sirena.app',
+      appFields: {}
+    },
+    finishedAt: '2024-01-22T21:19:40.944Z',
+    proactive: false,
+    output: { message: [Object] },
+    via: 'webchat'
+  }
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"interactions","type":"created","received":"2024-01-22T21:19:41.162Z","sent":"2024-01-22T21:19:41.162Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","transferredAt":null,"group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"unclaimed","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}],"webchatDueAt":"2024-01-23T21:19:40.944Z","agent":{"id":"65aedaf5f91b1a84f269489a","firstName":"Webchat","lastName":"Bot �","phone":"549111111111","email":"sirenabot+65aedaf5e86c48c15f273859 @sirena.app","appFields":{}},"assigned":"2024-01-22T21:19:40.452Z","firstContactedAt":"2024-01-22T21:19:40.944Z"},"updatedAt":"2024-01-22T21:19:40.944Z","operationId":"65aedbec119d820008a16519","interaction":{"id":"65aedbec119d820008a16519","createdAt":"2024-01-22T21:19:40.944Z","status":"created","prospectId":"65aedbecb8df640009896f81","agentId":"65aedaf5f91b1a84f269489a","agent":{"id":"65aedaf5f91b1a84f269489a","firstName":"Webchat","lastName":"Bot �","phone":"549111111111","email":"sirenabot+65aedaf5e86c48c15f273859@sirena.app","appFields":{}},"finishedAt":"2024-01-22T21:19:40.944Z","proactive":false,"output":{"message":{ "via":"webchat","body":"Quiero hacer esto","content":"Quiero hacer esto","performer":"integration","delivered":false,"providerId":"65aedbecad024fa87bcd77dd","sender":"1719035199","recipient":"ef29174e637bdc6d6ef9286acb4c76bd","templateConfig":null}},"via":"webchat"}}
+{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'prospects',
+  type: 'updated',
+  received: '2024-01-22T21:19:41.157Z',
+  sent: '2024-01-22T21:19:41.157Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    transferredAt: null,
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'unclaimed',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ],
+    webchatDueAt: '2024-01-23T21:19:40.944Z',
+    agent: {
+      id: '65aedaf5f91b1a84f269489a',
+      firstName: 'Webchat',
+      lastName: 'Bot �',
+      phone: '549111111111',
+      email: 'sirenabot+65aedaf5e86c48c15f273859@sirena.app',
+      appFields: {}
+    },
+    assigned: '2024-01-22T21:19:40.452Z',
+    firstContactedAt: '2024-01-22T21:19:40.944Z'
+  },
+  updatedAt: '2024-01-22T21:19:40.944Z',
+  operationId: '65aedbec119d820008a16519',
+  updates: [ 'pendingViewCount' ]
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"prospects","type":"updated","received":"2024-01-22T21:19:41.157Z","sent":"2024-01-22T21:19:41.157Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","transferredAt":null,"group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"unclaimed","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}],"webchatDueAt":"2024-01-23T21:19:40.944Z","agent":{"id":"65aedaf5f91b1a84f269489a","firstName":"Webchat","lastName":"Bot �","phone":"549111111111","email":"sirenabot+65aedaf5e86c48c15f273859@si rena.app","appFields":{}},"assigned":"2024-01-22T21:19:40.452Z","firstContactedAt":"2024-01-22T21:19:40.944Z"},"updatedAt":"2024-01-22T21:19:40.944Z","operationId":"65aedbec119d820008a16519","updates":["pendingViewCount"]}
+{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'prospects',
+  type: 'updated',
+  received: '2024-01-22T21:19:41.479Z',
+  sent: '2024-01-22T21:19:41.479Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    transferredAt: null,
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'new',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ],
+    webchatDueAt: '2024-01-23T21:19:40.944Z',
+    agent: {
+      id: '65aedaf5f91b1a84f269489a',
+      firstName: 'Webchat',
+      lastName: 'Bot �',
+      phone: '549111111111',
+      email: 'sirenabot+65aedaf5e86c48c15f273859@sirena.app',
+      appFields: {}
+    },
+    assigned: '2024-01-22T21:19:41.378Z',
+    firstContactedAt: '2024-01-22T21:19:40.944Z'
+  },
+  updatedAt: '2024-01-22T21:19:41.378Z',
+  operationId: '65aedbed749f8c0008c34d92',
+  updates: [ 'pendingViewCount', 'status' ]
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"prospects","type":"updated","received":"2024-01-22T21:19:41.479Z","sent":"2024-01-22T21:19:41.479Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","transferredAt":null,"group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"new","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}],"webchatDueAt":"2024-01-23T21:19:40.944Z","agent":{"id":"65aedaf5f91b1a84f269489a","firstName":"Webchat","lastName":"Bot �","phone":"549111111111","email":"sirenabot+65aedaf5e86c48c15f273859@sirena.a pp","appFields":{}},"assigned":"2024-01-22T21:19:41.378Z","firstContactedAt":"2024-01-22T21:19:40.944Z"},"updatedAt":"2024-01-22T21:19:41.378Z","operationId":"65aedbed749f8c0008c34d92","updates":["pendingViewCount","status"]}
+{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'interactions',
+  type: 'created',
+  received: '2024-01-22T21:19:42.529Z',
+  sent: '2024-01-22T21:19:42.529Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    transferredAt: null,
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'followUp',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ],
+    webchatDueAt: '2024-01-23T21:19:40.944Z',
+    agent: {
+      id: '65aedaf5f91b1a84f269489a',
+      firstName: 'Webchat',
+      lastName: 'Bot �',
+      phone: '549111111111',
+      email: 'sirenabot+65aedaf5e86c48c15f273859@sirena.app',
+      appFields: {}
+    },
+    assigned: '2024-01-22T21:19:41.378Z',
+    firstContactedAt: '2024-01-22T21:19:40.944Z'
+  },
+  updatedAt: '2024-01-22T21:19:41.682Z',
+  operationId: '65aedbed05226b000848e210',
+  interaction: {
+    id: '65aedbed05226b000848e210',
+    createdAt: '2024-01-22T21:19:41.682Z',
+    status: 'created',
+    prospectId: '65aedbecb8df640009896f81',
+    agentId: '65aedaf5f91b1a84f269489a',
+    agent: {
+      id: '65aedaf5f91b1a84f269489a',
+      firstName: 'Webchat',
+      lastName: 'Bot �',
+      phone: '549111111111',
+      email: 'sirenabot+65aedaf5e86c48c15f273859@sirena.app',
+      appFields: {}
+    },
+    bot: true,
+    finishedAt: '2024-01-22T21:19:41.682Z',
+    proactive: true,
+    output: { message: [Object] },
+    via: 'webchat'
+  }
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"interactions","type":"created","received":"2024-01-22T21:19:42.529Z","sent":"2024-01-22T21:19:42.529Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","transferredAt":null,"group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"followUp","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}],"webchatDueAt":"2024-01-23T21:19:40.944Z","agent":{"id":"65aedaf5f91b1a84f269489a","firstName":"Webchat","lastName":"Bot �","phone":"549111111111","email":"sirenabot+65aedaf5e86c48c15f273859@ sirena.app","appFields":{}},"assigned":"2024-01-22T21:19:41.378Z","firstContactedAt":"2024-01-22T21:19:40.944Z"},"updatedAt":"2024-01-22T21:19:41.682Z","operationId":"65aedbed05226b000848e210","interaction":{"id":"65aedbed05226b000848e210","createdAt":"2024-01-22T21:19:41.682Z","status":"created","prospectId":"65aedbecb8df640009896f81","agentId":"65aedaf5f91b1a84f269489a","agent":{"id":"65aedaf5f91b1a84f269489a","firstName":"Webchat","lastName":"Bot �","phone":"549111111111","email":"sirenabot+65aedaf5e86c48c15f273859@sirena.app","appFields":{}},"bot":true,"finishedAt":"2024-01-22T21:19:41.682Z","proactive":true,"output":{"m essage":{"via":"webchat","body":"¡Hola! Gracias por contactarnos. ¿Cómo podemos ayudarte?","content":"¡Hola! Gracias por contactarnos. ¿Cómo podemos ayudarte?","performer":"agent","delivered":false,"providerId":"65aedbeddbe3bea9ebc8bd2d","sender":"ef29174e637bdc6d6ef9286acb4c76bd","recipient":"1719035199","templateConfig":null}},"via":"webchat"}}
+{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'prospects',
+  type: 'updated',
+  received: '2024-01-22T21:19:42.524Z',
+  sent: '2024-01-22T21:19:42.524Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    transferredAt: null,
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'followUp',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ],
+    webchatDueAt: '2024-01-23T21:19:40.944Z',
+    agent: {
+      id: '65aedaf5f91b1a84f269489a',
+      firstName: 'Webchat',
+      lastName: 'Bot �',
+      phone: '549111111111',
+      email: 'sirenabot+65aedaf5e86c48c15f273859@sirena.app',
+      appFields: {}
+    },
+    assigned: '2024-01-22T21:19:41.378Z',
+    firstContactedAt: '2024-01-22T21:19:40.944Z'
+  },
+  updatedAt: '2024-01-22T21:19:41.682Z',
+  operationId: '65aedbed05226b000848e210',
+  updates: [ 'status' ]
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"prospects","type":"updated","received":"2024-01-22T21:19:42.524Z","sent":"2024-01-22T21:19:42.524Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","transferredAt":null,"group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"followUp","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}],"webchatDueAt":"2024-01-23T21:19:40.944Z","agent":{"id":"65aedaf5f91b1a84f269489a","firstName":"Webchat","lastName":"Bot �","phone":"549111111111","email":"sirenabot+65aedaf5e86c48c15f273859@sir ena.app","appFields":{}},"assigned":"2024-01-22T21:19:41.378Z","firstContactedAt":"2024-01-22T21:19:40.944Z"},"updatedAt":"2024-01-22T21:19:41.682Z","operationId":"65aedbed05226b000848e210","updates":["status"]}{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'interactions',
+  type: 'created',
+  received: '2024-01-22T21:19:48.284Z',
+  sent: '2024-01-22T21:19:48.284Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    transferredAt: null,
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'followUp',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ],
+    webchatDueAt: '2024-01-23T21:19:40.944Z',
+    agent: {
+      id: '65aedaf5f91b1a84f269489a',
+      firstName: 'Webchat',
+      lastName: 'Bot �',
+      phone: '549111111111',
+      email: 'sirenabot+65aedaf5e86c48c15f273859@sirena.app',
+      appFields: {}
+    },
+    assigned: '2024-01-22T21:19:41.378Z',
+    firstContactedAt: '2024-01-22T21:19:40.944Z'
+  },
+  updatedAt: '2024-01-22T21:19:48.153Z',
+  operationId: '65aedbf4ad9b3f0009420115',
+  interaction: {
+    id: '65aedbf4ad9b3f0009420115',
+    createdAt: '2024-01-22T21:19:48.153Z',
+    status: 'created',
+    prospectId: '65aedbecb8df640009896f81',
+    agentId: '65aedaf5f91b1a84f269489a',
+    agent: {
+      id: '65aedaf5f91b1a84f269489a',
+      firstName: 'Webchat',
+      lastName: 'Bot �',
+      phone: '549111111111',
+      email: 'sirenabot+65aedaf5e86c48c15f273859@sirena.app',
+      appFields: {}
+    },
+    bot: true,
+    finishedAt: '2024-01-22T21:19:48.153Z',
+    proactive: true,
+    output: { message: [Object] },
+    via: 'webchat'
+  }
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"interactions","type":"created","received":"2024-01-22T21:19:48.284Z","sent":"2024-01-22T21:19:48.284Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","transferredAt":null,"group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"followUp","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}],"webchatDueAt":"2024-01-23T21:19:40.944Z","agent":{"id":"65aedaf5f91b1a84f269489a","firstName":"Webchat","lastName":"Bot �","phone":"549111111111","email":"sirenabot+65aedaf5e86c48c15f273859@ sirena.app","appFields":{}},"assigned":"2024-01-22T21:19:41.378Z","firstContactedAt":"2024-01-22T21:19:40.944Z"},"updatedAt":"2024-01-22T21:19:48.153Z","operationId":"65aedbf4ad9b3f0009420115","interaction":{"id":"65aedbf4ad9b3f0009420115","createdAt":"2024-01-22T21:19:48.153Z","status":"created","prospectId":"65aedbecb8df640009896f81","agentId":"65aedaf5f91b1a84f269489a","agent":{"id":"65aedaf5f91b1a84f269489a","firstName":"Webchat","lastName":"Bot �","phone":"549111111111","email":"sirenabot+65aedaf5e86c48c15f273859@sirena.app","appFields":{}},"bot":true,"finishedAt":"2024-01-22T21:19:48.153Z","proactive":true,"output":{"m essage":{"via":"webchat","body":"Normalmente respondemos en menos de 5 minutos.","content":"Normalmente respondemos en menos de 5 minutos.","performer":"agent","delivered":false,"providerId":"65aedbf360911cc0a476f28f","sender":"ef29174e637bdc6d6ef9286acb4c76bd","recipient":"1719035199","templateConfig":null}},"via":"webchat"}}
+{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'interactions',
+  type: 'created',
+  received: '2024-01-22T21:19:48.692Z',
+  sent: '2024-01-22T21:19:48.692Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    transferredAt: '2024-01-22T21:19:48.580Z',
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'unclaimed',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ],
+    webchatDueAt: '2024-01-23T21:19:40.944Z',
+    firstContactedAt: '2024-01-22T21:19:40.944Z'
+  },
+  updatedAt: '2024-01-22T21:19:48.580Z',
+  operationId: '65aedbf458409e0008fc467e',
+  interaction: {
+    id: '65aedbf458409e0008fc467e',
+    createdAt: '2024-01-22T21:19:48.580Z',
+    status: 'updated',
+    prospectId: '65aedbecb8df640009896f81',
+    agentId: '65aedaf5f91b1a84f269489a',
+    agent: {
+      id: '65aedaf5f91b1a84f269489a',
+      firstName: 'Webchat',
+      lastName: 'Bot �',
+      phone: '549111111111',
+      email: 'sirenabot+65aedaf5e86c48c15f273859@sirena.app',
+      appFields: {}
+    },
+    bot: true,
+    finishedAt: '2024-01-22T21:19:48.580Z',
+    proactive: true,
+    output: { transferedToGroupId: '65a80a0d551626231fcc71bb' },
+    via: 'other'
+  }
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"interactions","type":"created","received":"2024-01-22T21:19:48.692Z","sent":"2024-01-22T21:19:48.692Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","transferredAt":"2024-01-22T21:19:48.580Z","group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"unclaimed","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}],"webchatDueAt":"2024-01-23T21:19:40.944Z","firstContactedAt":"2024-01-22T21:19:40.944Z"},"updatedAt":"2024-01-22T21:19:48.580Z","operationId":"65aedbf458409e0008fc467e","interaction":{"id":"65aedbf458409e0008fc467e","createdAt":"2024-01-22T21:19:48.580Z","status":"updated","prospectId":"65aedbecb8df640009896f81","agentId":"65aedaf5f91b1a84f269489a","agent":{"id":"65aedaf5f91b1a84f269489a","firstName":"Webchat","lastName":"Bot �","phone":"549111111111","email":"sirenabot+65aedaf5e86c48c15f273859@sirena.app","appFields":{}},"bot":true,"finishedAt":"2024-01-22T21:19:48.580Z","proactive" :true,"output":{"transferedToGroupId":"65a80a0d551626231fcc71bb"},"via":"other"}}
+{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'prospects',
+  type: 'updated',
+  received: '2024-01-22T21:19:48.690Z',
+  sent: '2024-01-22T21:19:48.690Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    transferredAt: '2024-01-22T21:19:48.580Z',
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'unclaimed',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ],
+    webchatDueAt: '2024-01-23T21:19:40.944Z',
+    firstContactedAt: '2024-01-22T21:19:40.944Z'
+  },
+  updatedAt: '2024-01-22T21:19:48.580Z',
+  operationId: '65aedbf458409e0008fc467e',
+  updates: [ 'status' ]
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"prospects","type":"updated","received":"2024-01-22T21:19:48.690Z","sent":"2024-01-22T21:19:48.690Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","transferredAt":"2024-01-22T21:19:48.580Z","group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"unclaimed","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}],"webchatDueAt":"2024-01-23T21:19:40.944Z","firstContactedAt":"2024-01-22T21:19:40.944Z"},"updatedAt":"2024-01-22T21:19:48.580Z","operationId":"65aedbf458409e0008fc467e","updates":["status"]}
+{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'interactions',
+  type: 'created',
+  received: '2024-01-22T21:20:19.778Z',
+  sent: '2024-01-22T21:20:19.778Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    transferredAt: '2024-01-22T21:19:48.580Z',
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'unclaimed',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ],
+    webchatDueAt: '2024-01-23T21:20:19.635Z',
+    firstContactedAt: '2024-01-22T21:19:40.944Z'
+  },
+  updatedAt: '2024-01-22T21:20:19.635Z',
+  operationId: '65aedc135ecfbf0008880204',
+  interaction: {
+    id: '65aedc135ecfbf0008880204',
+    createdAt: '2024-01-22T21:20:19.635Z',
+    status: 'created',
+    prospectId: '65aedbecb8df640009896f81',
+    finishedAt: '2024-01-22T21:20:19.635Z',
+    proactive: false,
+    output: { message: [Object] },
+    via: 'webchat'
+  }
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"interactions","type":"created","received":"2024-01-22T21:20:19.778Z","sent":"2024-01-22T21:20:19.778Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","transferredAt":"2024-01-22T21:19:48.580Z","group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"unclaimed","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}],"webchatDueAt":"2024-01-23T21:20:19.635Z","firstContactedAt":"2024-01-22T21:19:40.944Z"},"updatedAt":"2024-01-22T21:20:19.635Z","operationId":"65aedc135ecfbf0008880204","interaction":{"id":"65aedc135ecfbf0008880204","createdAt":"2024-01-22T21:20:19.635Z","status":"created","prospectId":"65aedbecb8df640009896f81","finishedAt":"2024-01-22T21:20:19.635Z","proactive":false,"output":{"message":{"via":"webchat","body":"Hola quiero informacion de un desarrollo","content":"Hola quiero informacion de un desarrollo","performer":"integration","delivered":false,"providerId":"65aedc13876e7c682e04047d","sender":"1719035199","recipient":"ef29174e637bdc6d6ef9286acb4c76bd","templateConfig":null}},"via":"webchat"}}
+{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'prospects',
+  type: 'updated',
+  received: '2024-01-22T21:20:19.774Z',
+  sent: '2024-01-22T21:20:19.774Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    transferredAt: '2024-01-22T21:19:48.580Z',
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'unclaimed',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ],
+    webchatDueAt: '2024-01-23T21:20:19.635Z',
+    firstContactedAt: '2024-01-22T21:19:40.944Z'
+  },
+  updatedAt: '2024-01-22T21:20:19.635Z',
+  operationId: '65aedc135ecfbf0008880204',
+  updates: [ 'pendingViewCount' ]
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"prospects","type":"updated","received":"2024-01-22T21:20:19.774Z","sent":"2024-01-22T21:20:19.774Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","transferredAt":"2024-01-22T21:19:48.580Z","group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"unclaimed","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}],"webchatDueAt":"2024-01-23T21:20:19.635Z","firstContactedAt":"2024-01-22T21:19:40.944Z"},"updatedAt":"2024-01-22T21:20:19.635Z","operationId":"65aedc135ecfbf0008880204","updates":["pendingViewCount"]}
+{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'interactions',
+  type: 'created',
+  received: '2024-01-22T21:20:48.029Z',
+  sent: '2024-01-22T21:20:48.029Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    transferredAt: '2024-01-22T21:20:47.913Z',
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'followUp',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ],
+    webchatDueAt: '2024-01-23T21:20:19.635Z',
+    agent: {
+      id: '65a80a0d551626a32ecc71c5',
+      firstName: 'Ian Sanchez',
+      lastName: '',
+      phone: '5212218644039',
+      email: 'i.sanchez@adryo.com.mx',
+      appFields: {}
+    },
+    assigned: '2024-01-22T21:19:41.378Z',
+    firstContactedAt: '2024-01-22T21:19:40.944Z'
+  },
+  updatedAt: '2024-01-22T21:20:47.913Z',
+  operationId: '65aedc2ff5d8310008cd9d0a',
+  interaction: {
+    id: '65aedc2ff5d8310008cd9d0a',
+    createdAt: '2024-01-22T21:20:47.913Z',
+    status: 'updated',
+    prospectId: '65aedbecb8df640009896f81',
+    agentId: '65a80a0d551626a32ecc71c5',
+    agent: {
+      id: '65a80a0d551626a32ecc71c5',
+      firstName: 'Ian Sanchez',
+      lastName: '',
+      phone: '5212218644039',
+      email: 'i.sanchez@adryo.com.mx',
+      appFields: {}
+    },
+    finishedAt: '2024-01-22T21:20:47.913Z',
+    proactive: true,
+    output: {
+      transferedTo: [Object],
+      transferedToAgentId: '65a80a0d551626a32ecc71c5'
+    },
+    via: 'other'
+  }
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"interactions","type":"created","received":"2024-01-22T21:20:48.029Z","sent":"2024-01-22T21:20:48.029Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","transferredAt":"2024-01-22T21:20:47.913Z","group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"followUp","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}],"webchatDueAt":"2024-01-23T21:20:19.635Z","agent":{"id":"65a80a0d551626a32ecc71c5","firstName":"Ian Sanchez","lastName":"","phone":"5212218644039","email":"i.sanchez@adryo.com.mx","appFields":{}},"assigned":"2024-01-22T21:19:41.378Z","firstContactedAt":"2024-01-22T21:19:40.944Z"},"updatedAt":"2024-01-22T21:20:47.913Z","operationId":"65aedc2ff5d8310008cd9d0a","interaction":{"id":"65aedc2ff5d8310008cd9d0a","createdAt":"2024-01-22T21:20:47.913Z","status":"updated","prospectId":"65aedbecb8df640009896f81","agentId":"65a80a0d551626a32ecc71c5","agent":{"id":"65a80a0d551626a32ecc71c5","firstName":"Ian Sanchez","lastName":"","phone":"5212218644039","email":"i.sanchez@adryo.com.mx","appFields":{}},"finishedAt":"2024-01-22T21:20:47.913Z","proactive":true,"output":{"transferedTo":{"id":"65a80a0d551626a32ecc71c5","firstName":"Ian Sanchez","lastName":"","phone":"5212218644039","email":"i.sanchez@adryo.com.mx","appFields":{}},"transferedToAgentId":"65a80a0d551626a32ecc71c5"},"via":"other"}}
+{
+  subscriptionId: '65aec8a2e3456d32c9e5345d',
+  topic: 'prospects',
+  type: 'updated',
+  received: '2024-01-22T21:20:48.027Z',
+  sent: '2024-01-22T21:20:48.027Z',
+  attempts: 1,
+  prospect: {
+    id: '65aedbecb8df640009896f81',
+    created: '2024-01-22T21:19:40.452Z',
+    transferredAt: '2024-01-22T21:20:47.913Z',
+    group: 'Inmo Sys Tec.',
+    groupId: '65a80a0d551626231fcc71bb',
+    account: 'Inmo Sys Tec.',
+    accountId: '65a80a0a551626b9b2cc71a3',
+    initialGroup: 'Inmo Sys Tec.',
+    initialGroupId: '65a80a0d551626231fcc71bb',
+    firstName: 'Webchat User 88z',
+    nin: [],
+    userMade: false,
+    status: 'followUp',
+    additionalData: {},
+    phones: [],
+    emails: [],
+    contactMediums: [ [Object] ],
+    leads: [ [Object] ],
+    webchatDueAt: '2024-01-23T21:20:19.635Z',
+    agent: {
+      id: '65a80a0d551626a32ecc71c5',
+      firstName: 'Ian Sanchez',
+      lastName: '',
+      phone: '5212218644039',
+      email: 'i.sanchez@adryo.com.mx',
+      appFields: {}
+    },
+    assigned: '2024-01-22T21:19:41.378Z',
+    firstContactedAt: '2024-01-22T21:19:40.944Z'
+  },
+  updatedAt: '2024-01-22T21:20:47.913Z',
+  operationId: '65aedc2ff5d8310008cd9d0a',
+  updates: [ 'pendingViewCount', 'status' ]
+}
+
+undefined
+{"subscriptionId":"65aec8a2e3456d32c9e5345d","topic":"prospects","type":"updated","received":"2024-01-22T21:20:48.027Z","sent":"2024-01-22T21:20:48.027Z","attempts":1,"prospect":{"id":"65aedbecb8df640009896f81","created":"2024-01-22T21:19:40.452Z","transferredAt":"2024-01-22T21:20:47.913Z","group":"Inmo Sys Tec.","groupId":"65a80a0d551626231fcc71bb","account":"Inmo Sys Tec.","accountId":"65a80a0a551626b9b2cc71a3","initialGroup":"Inmo Sys Tec.","initialGroupId":"65a80a0d551626231fcc71bb","firstName":"Webchat User 88z","nin":[],"userMade":false,"status":"followUp","additionalData":{},"phones":[],"emails":[],"contactMediums":[{"_id":"65aedbecb8df640009896f88","type":"webchat","mediumId":"1719035199"}],"leads":[{"created":"2024-01-22T21:19:40.474Z","source":"WEBCHAT","utmSource":"WEBCHAT","providerKey":"webchat","comments":"","providerLeadId":"1719035199","type":"retail"}],"webchatDueAt":"2024-01-23T21:20:19.635Z","agent":{"id":"65a80a0d551626a32ecc71c5","firstName":"Ian Sanchez","lastName":"","phone":"5212218644039","email":"i.sanchez@adryo.com.mx","appFields":{}},"assigned":"2024-01-22T21:19:41.378Z","firstContactedAt":"2024-01-22T21:19:40.944Z"},"updatedAt":"2024-01-22T21:20:47.913Z","operationId":"65aedc2ff5d8310008cd9d0a","updates":["pendingViewCount","status"]}

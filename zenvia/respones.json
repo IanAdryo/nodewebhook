@@ -1,0 +1,838 @@
+{ //creacion prospecto sin asesor asignado
+    "subscriptionId": "65aec8a2e3456d32c9e5345d",
+    "topic": "prospects",
+    "type": "created",
+    "received": "2024-01-22T20:12:15.340Z",
+    "sent": "2024-01-22T20:12:15.340Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65aecbe125840e1f6339df0d",
+        "label": "desarrolloBosques",
+        "created": "2024-01-22T20:12:14.686Z",
+        "transferredAt": "2024-01-22T20:12:15.009Z",
+        "group": "Inmo Sys Tec.",
+        "groupId": "65a80a0d551626231fcc71bb",
+        "account": "Inmo Sys Tec.",
+        "accountId": "65a80a0a551626b9b2cc71a3",
+        "initialGroup": "Inmo Sys Tec.",
+        "initialGroupId": "65a80a0d551626231fcc71bb",
+        "firstName": "Magdalena",
+        "lastName": "Salazar",
+        "nin": [],
+        "userMade": true,
+        "status": "unclaimed",
+        "additionalData": {},
+        "phones": [
+            "+525545612300"
+        ],
+        "emails": [
+            "magdalena@mail.com"
+        ],
+        "contactMediums": [],
+        "leads": [
+            {
+                "created": "2024-01-22T20:12:14.716Z",
+                "createdBy": "65a80a0d551626a32ecc71c5",
+                "source": "CARGA MANUAL",
+                "utmSource": "CARGA MANUAL",
+                "product": {
+                    "detail": "Interes en"
+                },
+                "comments": "Comentaris del contacto",
+                "type": "retail"
+            }
+        ],
+        "firstContactedAt": "2024-01-22T20:12:14.635Z"
+    },
+    "updatedAt": "2024-01-22T20:12:14.635Z",
+    "operationId": "65aecc1ed27d890008cf3ff0"
+}
+{ //creacion prospecto asesor asignado
+    "subscriptionId": "65aec8a2e3456d32c9e5345d",
+    "topic": "prospects",
+    "type": "created",
+    "received": "2024-01-22T20:16:25.049Z",
+    "sent": "2024-01-22T20:16:25.049Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65aeccbe155212faf9a94b51",
+        "label": "desarrolloRomaSur",
+        "created": "2024-01-22T20:16:24.370Z",
+        "transferredAt": "2024-01-22T20:16:24.748Z",
+        "group": "Inmo Sys Tec.",
+        "groupId": "65a80a0d551626231fcc71bb",
+        "account": "Inmo Sys Tec.",
+        "accountId": "65a80a0a551626b9b2cc71a3",
+        "initialGroup": "Inmo Sys Tec.",
+        "initialGroupId": "65a80a0d551626231fcc71bb",
+        "firstName": "Florinda",
+        "lastName": "Meza Salazar",
+        "nin": [],
+        "userMade": true,
+        "status": "followUp",
+        "additionalData": {},
+        "phones": [
+            "+525512345600"
+        ],
+        "emails": [
+            "florinda@mail.com"
+        ],
+        "contactMediums": [],
+        "leads": [
+            {
+                "created": "2024-01-22T20:16:24.408Z",
+                "createdBy": "65a80a0d551626a32ecc71c5",
+                "source": "CARGA MANUAL",
+                "utmSource": "CARGA MANUAL",
+                "product": {
+                    "detail": "Interes en"
+                },
+                "comments": "Comentaris del contacto",
+                "type": "retail"
+            }
+        ],
+        "agent": {
+            "id": "65aec76be613e548096b83d4",
+            "firstName": "Wade",
+            "lastName": "Warren",
+            "phone": "+525512345600",
+            "email": "wade.warren@example.com",
+            "appFields": {}
+        },
+        "assigned": "2024-01-22T20:16:24.317Z",
+        "firstContactedAt": "2024-01-22T20:16:24.317Z"
+    },
+    "updatedAt": "2024-01-22T20:16:24.317Z",
+    "operationId": "65aecd18593568000845e52c"
+}
+{ //edicion prospecto sin asesor asignado
+    "subscriptionId": "65aec8a2e3456d32c9e5345d",
+    "topic": "prospects",
+    "type": "updated",
+    "received": "2024-01-22T20:02:12.950Z",
+    "sent": "2024-01-22T20:02:12.950Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65aec7ffbe47a00aea5cd827",
+        "label": "desarrolloArboledaDelNorte",
+        "created": "2024-01-22T19:56:18.253Z",
+        "transferredAt": "2024-01-22T19:56:18.634Z",
+        "group": "Inmo Sys Tec.",
+        "groupId": "65a80a0d551626231fcc71bb",
+        "account": "Inmo Sys Tec.",
+        "accountId": "65a80a0a551626b9b2cc71a3",
+        "initialGroup": "Inmo Sys Tec.",
+        "initialGroupId": "65a80a0d551626231fcc71bb",
+        "firstName": "Maria",
+        "lastName": "Salazar",
+        "nin": [],
+        "userMade": true,
+        "status": "unclaimed",
+        "additionalData": {},
+        "phones": [
+            "+525598765400"
+        ],
+        "emails": [
+            "maria@mail.com"
+        ],
+        "contactMediums": [],
+        "leads": [
+            {
+                "created": "2024-01-22T19:56:18.278Z",
+                "createdBy": "65a80a0d551626a32ecc71c5",
+                "source": "CARGA MANUAL",
+                "utmSource": "CARGA MANUAL",
+                "product": {
+                    "detail": "Interes en"
+                },
+                "comments": "Comentaris del con tacto",
+                "type": "retail"
+            }
+        ],
+        "firstContactedAt": "2024-01-22T19:56:18.204Z"
+    },
+    "updatedAt": "2024-01-22T20:02:12.750Z",
+    "operationId": "65aec9c4168976000876064c",
+    "updates": [
+        "category",
+        "additionalData"
+    ]
+}
+{ //edicion prospecto con asesor asignado
+    "subscriptionId": "65aec8a2e3456d32c9e5345d",
+    "topic": "interactions",
+    "type": "created",
+    "received": "2024-01-22T20:03:31.236Z",
+    "sent": "2024-01-22T20:03:31.236Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65aec7ffbe47a00aea5cd827",
+        "label": "desarrolloArboledaDelNorte",
+        "created": "2024-01-22T19:56:18.253Z",
+        "transferredAt": "2024-01-22T20:03:31.116Z",
+        "group": "Inmo Sys Tec.",
+        "groupId": "65a80a0d551626231fcc71bb",
+        "account": "Inmo Sys Tec.",
+        "accountId": "65a80a0a551626b9b2cc71a3",
+        "initialGroup": "Inmo Sys Tec.",
+        "initialGroupId": "65a80a0d551626231fcc71bb",
+        "firstName": "Maria",
+        "lastName": "Salazar",
+        "nin": [],
+        "userMade": true,
+        "status": "followUp",
+        "additionalData": {},
+        "phones": [
+            "+525598765400"
+        ],
+        "emails": [
+            "maria@mail.com"
+        ],
+        "contactMediums": [],
+        "leads": [
+            {
+                "created": "2024-01-22T19:56:18.278Z",
+                "createdBy": "65a80a0d551626a32ecc71c5",
+                "source": "CARGA MANUAL",
+                "utmSource": "CARGA MANUAL",
+                "product": {
+                    "detail": "Interes en"
+                },
+                "comments": "Comentaris del con tacto",
+                "type": "retail"
+            }
+        ],
+        "agent": {
+            "id": "65aec76be613e548096b83d4",
+            "firstName": "Wade",
+            "lastName": "Warren",
+            "phone": "+525512345600",
+            "email": "wade.warren@example.com",
+            "appFields": {}
+        },
+        "assigned": "2024-01-22T19:56:18.204Z",
+        "firstContactedAt": "2024-01-22T19:56:18.204Z"
+    },
+    "updatedAt": "2024-01-22T20:03:31.116Z",
+    "operationId": "65aeca135df91700088d571e",
+    "interaction": {
+        "id": "65aeca135df91700088d571e",
+        "createdAt": "2024-01-22T20:03:31.116Z",
+        "status": "updated",
+        "prospectId": "65aec7ffbe47a00aea5cd827",
+        "agentId": "65a80a0d551626a32ecc71c5",
+        "agent": {
+            "id": "65a80a0d551626a32ecc71c5",
+            "firstName": "Ian Sanchez",
+            "lastName": "",
+            "phone": "5212218644039",
+            "email": "i.sanchez@adryo.com.mx",
+            "appFields": {}
+        },
+        "finishedAt": "2024-01-22T20:03:31.116Z",
+        "proactive": true,
+        "output": {
+            "transferedTo": {
+                "id": "65aec76be613e548096b83d4",
+                "firstName": "Wade",
+                "lastName": "Warren",
+                "phone": "+525512345600",
+                "email": "wade.warren@example.com",
+                "appFields": {}
+            },
+            "transferedToAgentId": "65aec76be613e548096b83d4"
+        },
+        "via": "other"
+    }
+}
+{ //llamada prospecto
+    "subscriptionId": "65aec8a2e3456d32c9e5345d",
+    "topic": "interactions",
+    "type": "created",
+    "received": "2024-01-22T20:05:31.211Z",
+    "sent": "2024-01-22T20:05:31.211Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65aec7ffbe47a00aea5cd827",
+        "label": "desarrolloArboledaDelNorte",
+        "created": "2024-01-22T19:56:18.253Z",
+        "transferredAt": "2024-01-22T20:03:31.116Z",
+        "group": "Inmo Sys Tec.",
+        "groupId": "65a80a0d551626231fcc71bb",
+        "account": "Inmo Sys Tec.",
+        "accountId": "65a80a0a551626b9b2cc71a3",
+        "initialGroup": "Inmo Sys Tec.",
+        "initialGroupId": "65a80a0d551626231fcc71bb",
+        "firstName": "Maria",
+        "lastName": "Salazar",
+        "nin": [],
+        "userMade": true,
+        "status": "followUp",
+        "additionalData": {},
+        "phones": [
+            "+525598765400"
+        ],
+        "emails": [
+            "maria@mail.com"
+        ],
+        "contactMediums": [],
+        "leads": [
+            {
+                "created": "2024-01-22T19:56:18.278Z",
+                "createdBy": "65a80a0d551626a32ecc71c5",
+                "source": "CARGA MANUAL",
+                "utmSource": "CARGA MANUAL",
+                "product": {
+                    "detail": "Interes en"
+                },
+                "comments": "Comentaris del con tacto",
+                "type": "retail"
+            }
+        ],
+        "agent": {
+            "id": "65aec76be613e548096b83d4",
+            "firstName": "Wade",
+            "lastName": "Warren",
+            "phone": "+525512345600",
+            "email": "wade.warren@example.com",
+            "appFields": {}
+        },
+        "assigned": "2024-01-22T19:56:18.204Z",
+        "firstContactedAt": "2024-01-22T19:56:18.204Z"
+    },
+    "updatedAt": "2024-01-22T20:05:31.057Z",
+    "operationId": "65aeca8bf6664d0008c53cfb",
+    "interaction": {
+        "id": "65aeca8bf6664d0008c53cfb",
+        "createdAt": "2024-01-22T20:05:31.057Z",
+        "status": "created",
+        "prospectId": "65aec7ffbe47a00aea5cd827",
+        "agentId": "65a80a0d551626a32ecc71c5",
+        "agent": {
+            "id": "65a80a0d551626a32ecc71c5",
+            "firstName": "Ian Sanchez",
+            "lastName": "",
+            "phone": "5212218644039",
+            "email": "i.sanchez@adryo.com.mx",
+            "appFields": {}
+        },
+        "finishedAt": "2024-01-22T20:05:31.057Z",
+        "proactive": true,
+        "output": {
+            "comment": "Nota llamada"
+        },
+        "via": "other"
+    }
+}
+{ //mensaje a prospecto
+    "subscriptionId": "65aec8a2e3456d32c9e5345d",
+    "topic": "interactions",
+    "type": "created",
+    "received": "2024-01-22T20:07:58.480Z",
+    "sent": "2024-01-22T20:07:58.480Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65aec7ffbe47a00aea5cd827",
+        "label": "desarrolloArboledaDelNorte",
+        "created": "2024-01-22T19:56:18.253Z",
+        "transferredAt": "2024-01-22T20:03:31.116Z",
+        "group": "Inmo Sys Tec.",
+        "groupId": "65a80a0d551626231fcc71bb",
+        "account": "Inmo Sys Tec.",
+        "accountId": "65a80a0a551626b9b2cc71a3",
+        "initialGroup": "Inmo Sys Tec.",
+        "initialGroupId": "65a80a0d551626231fcc71bb",
+        "firstName": "Maria",
+        "lastName": "Salazar",
+        "nin": [],
+        "userMade": true,
+        "status": "followUp",
+        "additionalData": {},
+        "phones": [
+            "+525598765400"
+        ],
+        "emails": [
+            "maria@mail.com"
+        ],
+        "contactMediums": [],
+        "leads": [
+            {
+                "created": "2024-01-22T19:56:18.278Z",
+                "createdBy": "65a80a0d551626a32ecc71c5",
+                "source": "CARGA MANUAL",
+                "utmSource": "CARGA MANUAL",
+                "product": {
+                    "detail": "Interes en"
+                },
+                "comments": "Comentaris del con tacto",
+                "type": "retail"
+            }
+        ],
+        "agent": {
+            "id": "65aec76be613e548096b83d4",
+            "firstName": "Wade",
+            "lastName": "Warren",
+            "phone": "+525512345600",
+            "email": "wade.warren@example.com",
+            "appFields": {}
+        },
+        "assigned": "2024-01-22T19:56:18.204Z",
+        "firstContactedAt": "2024-01-22T19:56:18.204Z"
+    },
+    "updatedAt": "2024-01-22T20:07:58.369Z",
+    "operationId": "65aecb1e6e8ee5000866b1b5",
+    "interaction": {
+        "id": "65aecb1e6e8ee5000866b1b5",
+        "createdAt": "2024-01-22T20:07:58.369Z",
+        "status": "created",
+        "prospectId": "65aec7ffbe47a00aea5cd827",
+        "agentId": "65a80a0d551626a32ecc71c5",
+        "agent": {
+            "id": "65a80a0d551626a32ecc71c5",
+            "firstName": "Ian Sanchez",
+            "lastName": "",
+            "phone": "5212218644039",
+            "email": "i.sanchez@adryo.com.mx",
+            "appFields": {}
+        },
+        "finishedAt": "2024-01-22T20:07:58.369Z",
+        "proactive": true,
+        "output": {
+            "message": {
+                "via": "whatsApp",
+                "body": "¡Hola Maria! Soy Sirena. Este es el número de verificación de tu barco: Inmo Sys Tec.\n\n¡Qué bueno que estés con nosotros!",
+                "content": "¡Hola Maria! Soy Sirena. Este es el número de verificación de tu barco: Inmo Sys Tec.\n\n¡Qué bueno que estés con nosotros!",
+                "performer": "manager",
+                "delivered": false,
+                "providerId": "65aecb219ced1366705bdc85",
+                "sender": "17819900844",
+                "recipient": "525598765400",
+                "template": "e41f7d92-0b0f-4030-a5cb-dc76a5653a30",
+                "templateParameters": {
+                    "prospectName": "Maria",
+                    "groupName": "Inmo Sys Tec."
+                },
+                "templateConfig": null
+            }
+        },
+        "via": "whatsApp"
+    }
+}
+{ // agregar nota prospecto
+    "subscriptionId": "65aec8a2e3456d32c9e5345d",
+    "topic": "interactions",
+    "type": "created",
+    "received": "2024-01-22T20:26:47.620Z",
+    "sent": "2024-01-22T20:26:47.620Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65a80d42791816cd7bd2d9f5",
+        "label": "hot",
+        "created": "2024-01-17T17:25:13.745Z",
+        "group": "Inmo Sys Tec.",
+        "groupId": "65a80a0d551626231fcc71bb",
+        "account": "Inmo Sys Tec.",
+        "accountId": "65a80a0a551626b9b2cc71a3",
+        "initialGroup": "Inmo Sys Tec.",
+        "initialGroupId": "65a80a0d551626231fcc71bb",
+        "firstName": "Jesus",
+        "lastName": "Perez",
+        "nin": [],
+        "userMade": true,
+        "status": "archived",
+        "additionalData": {},
+        "phones": [
+            "+525545271424"
+        ],
+        "emails": [],
+        "contactMediums": [],
+        "leads": [
+            {
+                "created": "2024-01-17T17:25:13.768Z",
+                "createdBy": "65a80a0d551626a32ecc71c5",
+                "source": "CARGA MANUAL",
+                "utmSource": "CARGA MANUAL",
+                "product": {
+                    "detail": "Contacto agregado por ian"
+                },
+                "comments": "nuevo contacto",
+                "type": "retail"
+            }
+        ],
+        "agent": {
+            "id": "65a80a0d551626a32ecc71c5",
+            "firstName": "Ian Sanchez",
+            "lastName": "",
+            "phone": "5212218644039",
+            "email": "i.sanchez@adryo.com.mx",
+            "appFields": {}
+        },
+        "assigned": "2024-01-17T17:25:13.699Z",
+        "archivingReason": "archivedUntilSchedule",
+        "firstContactedAt": "2024-01-17T17:25:13.699Z"
+    },
+    "updatedAt": "2024-01-22T20:26:47.509Z",
+    "operationId": "65aecf870315fc00087a3513",
+    "interaction": {
+        "id": "65aecf870315fc00087a3513",
+        "createdAt": "2024-01-22T20:26:47.509Z",
+        "status": "created",
+        "prospectId": "65a80d42791816cd7bd2d9f5",
+        "agentId": "65a80a0d551626a32ecc71c5",
+        "agent": {
+            "id": "65a80a0d551626a32ecc71c5",
+            "firstName": "Ian Sanchez",
+            "lastName": "",
+            "phone": "5212218644039",
+            "email": "i.sanchez@adryo.com.mx",
+            "appFields": {}
+        },
+        "finishedAt": "2024-01-22T20:26:47.509Z",
+        "proactive": true,
+        "output": {
+            "comment": "Nota"
+        },
+        "via": "other"
+    }
+}
+{ //recordatorio creado
+    "subscriptionId": "65aec8a2e3456d32c9e5345d",
+    "topic": "prospects",
+    "type": "updated",
+    "received": "2024-01-22T20:26:24.573Z",
+    "sent": "2024-01-22T20:26:24.573Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65a80d42791816cd7bd2d9f5",
+        "label": "hot",
+        "created": "2024-01-17T17:25:13.745Z",
+        "group": "Inmo Sys Tec.",
+        "groupId": "65a80a0d551626231fcc71bb",
+        "account": "Inmo Sys Tec.",
+        "accountId": "65a80a0a551626b9b2cc71a3",
+        "initialGroup": "Inmo Sys Tec.",
+        "initialGroupId": "65a80a0d551626231fcc71bb",
+        "firstName": "Jesus",
+        "lastName": "Perez",
+        "nin": [],
+        "userMade": true,
+        "status": "archived",
+        "additionalData": {},
+        "phones": [
+            "+525545271424"
+        ],
+        "emails": [],
+        "contactMediums": [],
+        "leads": [
+            {
+                "created": "2024-01-17T17:25:13.768Z",
+                "createdBy": "65a80a0d551626a32ecc71c5",
+                "source": "CARGA MANUAL",
+                "utmSource": "CARGA MANUAL",
+                "product": {
+                    "detail": "Contacto agregado por ian"
+                },
+                "comments": "nuevo contacto",
+                "type": "retail"
+            }
+        ],
+        "agent": {
+            "id": "65a80a0d551626a32ecc71c5",
+            "firstName": "Ian Sanchez",
+            "lastName": "",
+            "phone": "5212218644039",
+            "email": "i.sanchez@adryo.com.mx",
+            "appFields": {}
+        },
+        "assigned": "2024-01-17T17:25:13.699Z",
+        "archivingReason": "archivedUntilSchedule",
+        "firstContactedAt": "2024-01-17T17:25:13.699Z"
+    },
+    "updatedAt": "2024-01-22T20:26:24.382Z",
+    "operationId": "65aecf705244fa0008a83d57",
+    "updates": [
+        "label",
+        "category",
+        "additionalData"
+    ]
+}
+{ // recordatorio pasado
+    "subscriptionId": "65aec8a2e3456d32c9e5345d",
+    "topic": "prospects",
+    "type": "updated",
+    "received": "2024-01-22T20:57:26.714Z",
+    "sent": "2024-01-22T20:57:26.714Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65a80d42791816cd7bd2d9f5",
+        "label": "hot",
+        "created": "2024-01-17T17:25:13.745Z",
+        "group": "Inmo Sys Tec.",
+        "groupId": "65a80a0d551626231fcc71bb",
+        "account": "Inmo Sys Tec.",
+        "accountId": "65a80a0a551626b9b2cc71a3",
+        "initialGroup": "Inmo Sys Tec.",
+        "initialGroupId": "65a80a0d551626231fcc71bb",
+        "firstName": "Jesus",
+        "lastName": "Perez",
+        "nin": [],
+        "userMade": true,
+        "status": "followUp",
+        "additionalData": {},
+        "phones": [
+            "+525545271424"
+        ],
+        "emails": [],
+        "contactMediums": [],
+        "leads": [
+            {
+                "created": "2024-01-17T17:25:13.768Z",
+                "createdBy": "65a80a0d551626a32ecc71c5",
+                "source": "CARGA MANUAL",
+                "utmSource": "CARGA MANUAL",
+                "product": {
+                    "detail": "Contacto agregado por ian"
+                },
+                "comments": "nuevo contacto",
+                "type": "retail"
+            }
+        ],
+        "agent": {
+            "id": "65a80a0d551626a32ecc71c5",
+            "firstName": "Ian Sanchez",
+            "lastName": "",
+            "phone": "5212218644039",
+            "email": "i.sanchez@adryo.com.mx",
+            "appFields": {}
+        },
+        "assigned": "2024-01-17T17:25:13.699Z",
+        "firstContactedAt": "2024-01-17T17:25:13.699Z"
+    },
+    "updatedAt": "2024-01-22T20:57:26.435Z",
+    "operationId": "65aed6b68a70080008c91ad5",
+    "updates": [
+        "pendingViewCount"
+    ]
+}
+
+curl 'https: //api.zenvia.com/v2/channels/whatsapp/messages' -d '{"from":"golden-sound","to":"5212218644039","contents":[{"type":"text","text":"Hola"}]}' -H 'Content-Type: application/json' -H 'X-API-TOKEN: ejMnai3khdtlu-gQQ-oaE6C8CWDyMIdMTdyD'
+{ //mensaje enviado por api
+    "subscriptionId": "65aec8a2e3456d32c9e5345d",
+    "topic": "prospects",
+    "type": "updated",
+    "received": "2024-01-22T20:55:38.064Z",
+    "sent": "2024-01-22T20:55:38.064Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65a80d42791816cd7bd2d9f5",
+        "label": "hot",
+        "created": "2024-01-17T17:25:13.745Z",
+        "group": "Inmo Sys Tec.",
+        "groupId": "65a80a0d551626231fcc71bb",
+        "account": "Inmo Sys Tec.",
+        "accountId": "65a80a0a551626b9b2cc71a3",
+        "initialGroup": "Inmo Sys Tec.",
+        "initialGroupId": "65a80a0d551626231fcc71bb",
+        "firstName": "Jesus",
+        "lastName": "Perez",
+        "nin": [],
+        "userMade": true,
+        "status": "followUp",
+        "additionalData": {},
+        "phones": [
+            "+525545271424"
+        ],
+        "emails": [],
+        "contactMediums": [],
+        "leads": [
+            {
+                "created": "2024-01-17T17:25:13.768Z",
+                "createdBy": "65a80a0d551626a32ecc71c5",
+                "source": "CARGA MANUAL",
+                "utmSource": "CARGA MANUAL",
+                "product": {
+                    "detail": "Contacto agregado por ian"
+                },
+                "comments": "nuevo contacto",
+                "type": "retail"
+            }
+        ],
+        "agent": {
+            "id": "65a80a0d551626a32ecc71c5",
+            "firstName": "Ian Sanchez",
+            "lastName": "",
+            "phone": "5212218644039",
+            "email": "i.sanchez@adryo.com.mx",
+            "appFields": {}
+        },
+        "assigned": "2024-01-17T17:25:13.699Z",
+        "firstContactedAt": "2024-01-17T17:25:13.699Z"
+    },
+    "updatedAt": "2024-01-22T20:25:34.627Z",
+    "operationId": "65aed649c2965300082f17ca",
+    "updates": [
+        "status"
+    ]
+}
+{ //message status sent
+    "id": "be2a62f5-ac46-4c79-b037-9333f31956e9",
+    "timestamp": "2024-01-22T20:56:05.111Z",
+    "type": "MESSAGE_STATUS",
+    "subscriptionId": "c2e40433-09e6-4c2b-80a5-9dbdc1c14b74",
+    "channel": "whatsapp",
+    "messageId": "ee94b61b-15d6-4273-8533-dccb5f858628",
+    "messageStatus": {
+        "timestamp": "2024-01-22T20:56:04+00:00",
+        "code": "SENT",
+        "description": "The message has been forwarded to the provider"
+    },
+    "contentIndex": 0
+}
+{ //message status delivered
+    "id": "84aa3e55-a9f2-4f62-9d56-c9c4f47e0b6f",
+    "timestamp": "2024-01-22T20:56:34.039Z",
+    "type": "MESSAGE_STATUS",
+    "subscriptionId": "c2e40433-09e6-4c2b-80a5-9dbdc1c14b74",
+    "channel": "whatsapp",
+    "messageId": "ee94b61b-15d6-4273-8533-dccb5f858628",
+    "messageStatus": {
+        "timestamp": "2024-01-22T20:56:30+00:00",
+        "code": "DELIVERED",
+        "description": "The message has been delivered by the provider"
+    },
+    "contentIndex": 0
+}
+{ //message status read
+    "id": "ddd381fe-d969-49bd-98c6-7abb78ca96c8",
+    "timestamp": "2024-01-22T21:02:15.669Z",
+    "type": "MESSAGE_STATUS",
+    "subscriptionId": "c2e40433-09e6-4c2b-80a5-9dbdc1c14b74",
+    "channel": "whatsapp",
+    "messageId": "ee94b61b-15d6-4273-8533-dccb5f858628",
+    "messageStatus": {
+        "timestamp": "2024-01-22T21:02:15+00:00",
+        "code": "READ",
+        "description": "The message has been read by the recipient"
+    },
+    "contentIndex": 0
+}
+{ //message status new message recived
+    "id": "ed60c985-e07b-4c49-81ab-0990ea173e32",
+    "timestamp": "2024-01-22T21:03:14.847Z",
+    "type": "MESSAGE",
+    "subscriptionId": "585652c3-a2b1-4897-b1dd-163d12ad204d",
+    "channel": "whatsapp",
+    "direction": "IN",
+    "message": {
+        "id": "20bf4301-f44a-4443-8b07-33f735a65830",
+        "from": "5212218644039",
+        "to": "golden-sound",
+        "direction": "IN",
+        "channel": "whatsapp",
+        "visitor": {
+            "name": "Node Bait",
+            "firstName": "Node",
+            "lastName": "Bait"
+        },
+        "contents": [
+            {
+                "type": "text",
+                "text": "Hi"
+            }
+        ],
+        "timestamp": "2024-01-22T21:03:14+00:00"
+    }
+}
+{
+    "subscriptionId": "65aec8a2e3456d32c9e5345d",
+    "topic": "interactions",
+    "type": "created",
+    "received": "2024-01-22T20:57:26.717Z",
+    "sent": "2024-01-22T20:57:26.717Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65a80d42791816cd7bd2d9f5",
+        "label": "hot",
+        "created": "2024-01-17T17:25:13.745Z",
+        "group": "Inmo Sys Tec.",
+        "groupId": "65a80a0d551626231fcc71bb",
+        "account": "Inmo Sys Tec.",
+        "accountId": "65a80a0a551626b9b2cc71a3",
+        "initialGroup": "Inmo Sys Tec.",
+        "initialGroupId": "65a80a0d551626231fcc71bb",
+        "firstName": "Jesus",
+        "lastName": "Perez",
+        "nin": [],
+        "userMade": true,
+        "status": "followUp",
+        "additionalData": {},
+        "phones": [
+            "+525545271424"
+        ],
+        "emails": [],
+        "contactMediums": [],
+        "leads": [
+            {
+                "created": "2024-01-17T17:25:13.768Z",
+                "createdBy": "65a80a0d551626a32ecc71c5",
+                "source": "CARGA MANUAL",
+                "utmSource": "CARGA MANUAL",
+                "product": {
+                    "detail": "Contacto agregado por ian"
+                },
+                "comments": "nuevo contacto",
+                "type": "retail"
+            }
+        ],
+        "agent": {
+            "id": "65a80a0d551626a32ecc71c5",
+            "firstName": "Ian Sanchez",
+            "lastName": "",
+            "phone": "5212218644039",
+            "email": "i.sanchez@adryo.com.mx",
+            "appFields": {}
+        },
+        "assigned": "2024-01-17T17:25:13.699Z",
+        "firstContactedAt": "2024-01-17T17:25:13.699Z"
+    },
+    "updatedAt": "2024-01-22T20:57:26.435Z",
+    "operationId": "65aed6b68a70080008c91ad5",
+    "interaction": {
+        "id": "65aed6b68a70080008c91ad5",
+        "createdAt": "2024-01-22T20:57:26.435Z",
+        "status": "created",
+        "prospectId": "65a80d42791816cd7bd2d9f5",
+        "agentId": "65a80a0d551626a32ecc71c5",
+        "agent": {
+            "id": "65a80a0d551626a32ecc71c5",
+            "firstName": "Ian Sanchez",
+            "lastName": "",
+            "phone": "5212218644039",
+            "email": "i.sanchez@adryo.com.mx",
+            "appFields": {}
+        },
+        "finishedAt": "2024-01-22T20:57:26.435Z",
+        "proactive": true,
+        "output": {
+            "message": {
+                "via": "whatsApp",
+                "body": "¡Hola Jesus! Soy Sirena. Este es el número de verificación de tu barco: Inmo Sys Tec.\n\n¡Qué bueno que estés con nosotros!",
+                "content": "¡Hola Jesus! Soy Sirena. Este es el número de verificación de tu barco: Inmo Sys Tec.\n\n¡Qué bueno que estés con nosotros!",
+                "performer": "manager",
+                "delivered": false,
+                "providerId": "65aed6b934f538409f50cca5",
+                "sender": "17819900844",
+                "recipient": "+525545271424",
+                "template": "e41f7d92-0b0f-4030-a5cb-dc76a5653a30",
+                "templateParameters": {
+                    "prospectName": "Jesus",
+                    "groupName": "Inmo Sys Tec."
+                },
+                "templateConfig": null
+            }
+        },
+        "via": "whatsApp"
+    }
+}
+https://zenvia.github.io/zenvia-openapi-spec/v2/#tag/Webhooks/paths/~1subscriptions/post
+https://api.sirena.app/#section/Prospects

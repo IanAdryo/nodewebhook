@@ -1,0 +1,21 @@
+meta {
+  name: webhook-test
+  type: http
+  seq: 1
+}
+
+post {
+  url: 127.0.0.1:3000/zenvia
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: aplication/json
+}
+
+body:json {
+  {
+    "message": "hi"
+  }
+}
