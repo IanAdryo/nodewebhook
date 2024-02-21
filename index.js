@@ -8,6 +8,15 @@ app.listen('3000', ()=>{
     console.log('Running');
 })
 
+app.post('/', (req, res)=> {
+    console.log(req.body);
+    console.log("");
+    console.log(JSON.stringify(req.header));
+    console.log(JSON.stringify(req.body));
+
+    res.send('Ok');
+})
+
 app.post('/zenvia', (req, res)=> {
     console.log(req.body);
     console.log("");

@@ -1,0 +1,127 @@
+ID 
+OH6JHO8
+
+Inverti Real Estate Sub Grupo
+
+    Inverti Real Estate
+    Tejada
+
+{
+    "subscriptionId": "65ca7fafe3456d5438162e6a",
+    "topic": "prospects",
+    "type": "updated",
+    "received": "2024-02-12T20:32:14.184Z",
+    "sent": "2024-02-12T20:32:14.184Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65c9ad81521c1a00081377f2",
+        "created": "2024-02-12T05:32:49.892Z",
+        "transferredAt": "2024-02-12T05:32:57.518Z",
+        "group": "Inverti Real Estate",
+        "groupId": "659dc87cc366037d9e06e87c",
+        "account": "Inverti Real Estate",
+        "accountId": "659dc87ac366034bb806e84b",
+        "initialGroup": "Inverti Real Estate",
+        "initialGroupId": "659dc87cc366037d9e06e87c",
+        "firstName": "Mario",
+        "lastName": "",
+        "nin": [],
+        "userMade": false,
+        "status": "unclaimed",
+        "additionalData": {},
+        "phones": [
+            "+5213328116413"
+        ],
+        "emails": [],
+        "contactMediums": [
+            {
+                "_id": "65c9ad81521c1a00081377fa",
+                "type": "phone"
+            }
+        ],
+        "leads": [
+            {
+                "created": "2024-02-12T05:32:49.933Z",
+                "source": "WHATSAPP",
+                "utmSource": "WHATSAPP",
+                "providerKey": "wasp",
+                "comments": "",
+                "providerLeadId": "f22ec353-36aa-4cb7-a06f-b84ca0394fbd_5213328116413",
+                "type": "retail"
+            }
+        ],
+        "whatsAppDueAt": "2024-02-13T17:04:17.495Z",
+        "firstContactedAt": "2024-02-12T05:32:50.331Z"
+    },
+    "updatedAt": "2024-02-12T20:32:13.989Z",
+    "operationId": "65ca804dd809400009f1b44a",
+    "updates": [
+        "category",
+        "additionalData"
+    ]
+}
+
+{
+    "subscriptionId": "65ca7fafe3456d5438162e6a",
+    "topic": "prospects",
+    "type": "updated",
+    "received": "2024-02-12T20:33:56.681Z",
+    "sent": "2024-02-12T20:33:56.681Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65c9ac8932fcc2000808b259",
+        "created": "2024-02-12T05:28:41.930Z",
+        "transferredAt": null,
+        "group": "Tejeda",
+        "groupId": "65a5b822f9ff231c3acd0d62",
+        "account": "Inverti Real Estate",
+        "accountId": "659dc87ac366034bb806e84b",
+        "initialGroup": "Tejeda",
+        "initialGroupId": "65a5b822f9ff231c3acd0d62",
+        "firstName": "Angelo Guzmán",
+        "lastName": "",
+        "nin": [],
+        "userMade": false,
+        "status": "followUp",
+        "additionalData": {},
+        "phones": [
+            "+5213315201624"
+        ],
+        "emails": [],
+        "contactMediums": [
+            {
+                "_id": "65c9ac8932fcc2000808b261",
+                "type": "phone"
+            }
+        ],
+        "leads": [
+            {
+                "created": "2024-02-12T05:28:41.951Z",
+                "source": "WHATSAPP",
+                "utmSource": "WHATSAPP",
+                "providerKey": "wasp",
+                "comments": "",
+                "providerLeadId": "0b8963d8-e3f1-4267-8841-9018c9be0aaa_5213315201624",
+                "type": "retail"
+            }
+        ],
+        "whatsAppDueAt": "2024-02-13T05:28:42.357Z",
+        "agent": {
+            "id": "65a5b939f91b1a814d4c27fa",
+            "firstName": "WhatsApp",
+            "lastName": "Bot �",
+            "phone": "549111111111",
+            "email": "sirenabot+65a5b80b1e55635338368bdb@sirena.app",
+            "appFields": {}
+        },
+        "assigned": "2024-02-12T05:28:42.658Z",
+        "firstContactedAt": "2024-02-12T05:28:4 2.357Z"
+    },
+    "updatedAt": "2024-02-12T20:33:56.552Z",
+    "operationId": "65ca80b489fb47000811a70d",
+    "updates": [
+        "category",
+        "additionalData"
+    ]
+}
+
