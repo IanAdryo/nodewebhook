@@ -1,0 +1,215 @@
+{
+    "subscriptionId": "65dd0ede678e6754c6eb6f3a",
+    "topic": "prospects",
+    "type": "updated",
+    "received": "2024-02-26T23:08:13.991Z",
+    "sent": "2024-02-26T23:08:13.991Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65dcfe5ff597c40008917b80",
+        "created": "2024-02-26T21:10:55.843Z",
+        "transferredAt": null,
+        "group": "BBC Lunas S. A. de C. V.",
+        "groupId": "6560f6906462d65782069748",
+        "account": "BBC Lunas S. A. de C. V.",
+        "accountId": "6560f68e6462d62e0206972e",
+        "initialGroup": "BBC Lunas S. A. de C. V.",
+        "initialGroupId": "6560f6906462d65782069748",
+        "firstName": "Sayuri Roos",
+        "lastName": "",
+        "nin": [
+            {
+                "type": "DNI",
+                "_id": "65dcfe8e19d6290008ce62de"
+            }
+        ],
+        "userMade": false,
+        "status": "followUp",
+        "additionalData": [],
+        "phones": [
+            "+526122320605",
+            "+5216122320605"
+        ],
+        "emails": [
+            "yo-unica20@hotmail.com"
+        ],
+        "contactMediums": [
+            {
+                "_id": "65dcfe5ff597c40008917b89",
+                "type": "email"
+            },
+            {
+                "_id": "65dcfe8e19d6290008ce62e0",
+                "type": "phone"
+            }
+        ],
+        "leads": [
+            {
+                "created": "2024-02-26T21:10:55.864Z",
+                "source": "FB",
+                "campaign": "Form_MX_4.2MDP_Ingl\u00e9s",
+                "medium": "Meta Formulario Preguntas",
+                "utmSource": "FB",
+                "utmCampaign": "Form_MX_4.2MDP_Ingl\u00e9s",
+                "utmMedium": "Meta Formulario Preguntas",
+                "providerKey": "zapier",
+                "comments": "\u00bfQuieres registrarte para recibir m\u00e1s informaci\u00f3n?\nYes",
+                "providerLeadId": "368633659314135",
+                "type": "retail"
+            },
+            {
+                "created": "2024-02-26T21:11:42.754Z",
+                "source": "WHATSAPP",
+                "utmSource": "WHATSAPP",
+                "comments": "",
+                "providerLeadId": "dd9a5f3e-ba1d-4aad-8a3a-4a1384f09838_5216122320605",
+                "type": "retail"
+            }
+        ],
+        "whatsAppDueAt": "2024-02-27T21:12:27.666Z",
+        "agent": {
+            "id": "657a44050b7e771c348ed875",
+            "firstName": "Edgar",
+            "lastName": "Tellez",
+            "phone": "+526182288286",
+            "email": "edgar.tellez.abogado@hotmail.com",
+            "appFields": []
+        },
+        "assigned": "2024-02-26T21:11:06.292Z",
+        "firstContactedAt": "2024-02-26T21:11:42.983Z"
+    },
+    "updatedAt": "2024-02-26T23:08:13.851Z",
+    "operationId": "65dd19dd9641ba00085749bf",
+    "updates": [
+        "category",
+        "additionalData"
+    ]
+}
+
+2024-02-26 18:20:17 Zenvia_log: 
+{
+    "subscriptionId": "65dd0ede678e6754c6eb6f3a",
+    "topic": "prospects",
+    "type": "created",
+    "received": "2024-02-27T00:20:16.484Z",
+    "sent": "2024-02-27T00:20:16.484Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65dd2ac05e3406000803972a",
+        "created": "2024-02-27T00:20:16.322Z",
+        "group": "BBC Lunas S. A. de C. V.",
+        "groupId": "6560f6906462d65782069748",
+        "account": "BBC Lunas S. A. de C. V.",
+        "accountId": "6560f68e6462d62e0206972e",
+        "initialGroup": "BBC Lunas S. A. de C. V.",
+        "initialGroupId": "6560f6906462d65782069748",
+        "firstName": "Mario Ochoa",
+        "nin": [],
+        "userMade": false,
+        "status": "unclaimed",
+        "additionalData": [],
+        "phones": [
+            "+526121056893"
+        ],
+        "emails": [
+            "marioochoa7@hotmail.com"
+        ],
+        "contactMediums": [
+            {
+                "_id": "65dd2ac05e34060008039733",
+                "type": "email"
+            },
+            {
+                "_id": "65dd2ac05e34060008039734",
+                "type": "phone"
+            }
+        ],
+        "leads": [
+            {
+                "created": "2024-02-27T00:20:16.342Z",
+                "source": "FB",
+                "campaign": "Form_MX_$50K_Apartado_Esp",
+                "medium": "Meta Formulario Preguntas",
+                "utmSource": "FB",
+                "utmCampaign": "Form_MX_$50K_Apartado_Esp",
+                "utmMedium": "Meta Formulario Preguntas",
+                "providerKey": "zapier",
+                "comments": "\u00bfQuieres registrarte para recibir m\u00e1s informaci\u00f3n?\nYes",
+                "providerLeadId": "3043234915812088",
+                "type": "retail"
+            }
+        ]
+    },
+    "updatedAt": "2024-02-27T00:20:16.287Z",
+    "operationId": "65dd2ac05e34060008039729"
+}
+2024-02-26 18:20:38 Zenvia_log: 
+{
+    "subscriptionId": "65dd0ede678e6754c6eb6f3a",
+    "topic": "prospects",
+    "type": "updated",
+    "received": "2024-02-27T00:20:38.578Z",
+    "sent": "2024-02-27T00:20:38.578Z",
+    "attempts": 1,
+    "prospect": {
+        "id": "65dd2ac05e3406000803972a",
+        "created": "2024-02-27T00:20:16.322Z",
+        "transferredAt": null,
+        "group": "BBC Lunas S. A. de C. V.",
+        "groupId": "6560f6906462d65782069748",
+        "account": "BBC Lunas S. A. de C. V.",
+        "accountId": "6560f68e6462d62e0206972e",
+        "initialGroup": "BBC Lunas S. A. de C. V.",
+        "initialGroupId": "6560f6906462d65782069748",
+        "firstName": "Mario Ochoa",
+        "nin": [],
+        "userMade": false,
+        "status": "new",
+        "additionalData": [],
+        "phones": [
+            "+526121056893"
+        ],
+        "emails": [
+            "marioochoa7@hotmail.com"
+        ],
+        "contactMediums": [
+            {
+                "_id": "65dd2ac05e34060008039733",
+                "type": "email"
+            },
+            {
+                "_id": "65dd2ac05e34060008039734",
+                "type": "phone"
+            }
+        ],
+        "leads": [
+            {
+                "created": "2024-02-27T00:20:16.342Z",
+                "source": "FB",
+                "campaign": "Form_MX_$50K_Apartado_Esp",
+                "medium": "Meta Formulario Preguntas",
+                "utmSource": "FB",
+                "utmCampaign": "Form_MX_$50K_Apartado_Esp",
+                "utmMedium": "Meta Formulario Preguntas",
+                "providerKey": "zapier",
+                "comments": "\u00bfQuieres registrarte para recibir m\u00e1s informaci\u00f3n?\nYes",
+                "providerLeadId": "3043234915812088",
+                "type": "retail"
+            }
+        ],
+        "agent": {
+            "id": "657b809bec07ce814f0cf129",
+            "firstName": "Karina",
+            "lastName": "Garcia",
+            "phone": "+526682317551",
+            "email": "262015saia@gmail.com",
+            "appFields": []
+        },
+        "assigned": "2024-02-27T00:20:38.437Z"
+    },
+    "updatedAt": "2024-02-27T00:20:38.436Z",
+    "operationId": "65dd2ad63cf05700087850dd",
+    "updates": [
+        "status"
+    ]
+}
